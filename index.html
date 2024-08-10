@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    
+    <div class="cal"><B>CASIO</B>
+<div class="sec">
+    <input  class="fir" type="text" />
+
+</div> 
+<div class="thi">
+   
+    <button class="for" onclick="val='';
+    document.querySelector('.fir').value=val";
+>AC</button>
+    <button class="for">DEL</button>
+    <button class="for" onclick="val=val+'';
+    document.querySelector('.fir').value=val";
+ >%</button>
+    <button class="for" onclick="val=val+'/';
+    document.querySelector('.fir').value=val";
+>/</button>
+    <button class="for" onclick="val=val+7;
+    document.querySelector('.fir').value=val";
+
+     >7</button>
+    <button class="for" onclick="val=val+8;
+    document.querySelector('.fir').value=val";
+>8</button> 
+    <button class="for" onclick="val=val+9;
+    document.querySelector('.fir').value=val";
+>9</button>
+    <button class="for" onclick="val=val+'*';
+    document.querySelector('.fir').value=val";
+>*</button>
+    <button class="for" onclick="val=val+4;
+    document.querySelector('.fir').value=val";
+>4</button>
+    <button class="for" onclick="val=val+5;
+    document.querySelector('.fir').value=val";
+>5</button>
+    <button class="for" onclick="val=val+6;
+    document.querySelector('.fir').value=val";
+>6</button>
+    <button class="for" onclick="val=val+'-';
+    document.querySelector('.fir').value=val";
+>-</button>
+    <button class="for" onclick="val=val+1;
+    document.querySelector('.fir').value=val";
+>1</button>
+    <button class="for" onclick="val=val+2;
+    document.querySelector('.fir').value=val";
+>2</button>
+    <button class="for" onclick="val=val+3;
+    document.querySelector('.fir').value=val";
+>3</button>
+    <button class="for" onclick="val=val+'+';
+    document.querySelector('.fir').value=val";
+>+</button>
+    <button class="for"  onclick="val=val+'00';
+    document.querySelector('.fir').value=val";
+>00</button>
+    <button class="for" onclick="val=val+0;
+    document.querySelector('.fir').value=val";
+>0</button> 
+    <button class="for" onclick="val=val+'.';
+    document.querySelector('.fir').value=val";
+>.</button>
+    <button class="for" onclick="val=eval(val);
+    document.querySelector('.fir').value=val";
+>=</button>
+</div>
+
+    </div>
+    <script>
+      let val="";
+      document.querySelector('.fir').value=val
+
+    </script>
+</body>
+</html>
