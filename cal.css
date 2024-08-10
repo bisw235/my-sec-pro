@@ -1,0 +1,44 @@
+.cal {
+    height:400px;
+    width:300px;
+    background-color: black;
+    border:2px solid black ;
+    margin-left: 35%;
+    margin-top: 100px;
+}
+.fir {
+    height: 50px;
+    width: 270px;
+    background-color: aqua;
+    font-size: large;
+}
+.sec {
+    height: 50px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.thi {
+    height: 350px;
+    width: 270px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10PX;
+    padding-left: 2px;
+}
+button {
+    background-color:black;
+    color: aqua;
+    height: 50px;
+    width: 64px;
+}
+button:hover {
+    background-color: red;
+    color: blue;
+    scale: 2px;
+    cursor:pointer4
+    ;
+}
+B {
+    color: azure;
+}
